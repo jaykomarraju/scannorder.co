@@ -1,44 +1,26 @@
-# scannorder.co
+# Scannorder
+Scannorder is a web application that allows customers to scan a QR code and place orders at restaurants. It's an affordable alternative to Point of Sale (POS) systems for restaurants looking to digitize their operations. Scannorder enables restaurants to manage their orders, collect payments, and handle rewards, all within a single platform.
 
-## What is it?
+## Problem Statement
+Scannorder is a web app that simplifies the restaurant ordering process for both customers and restaurant owners. By enabling customers to scan a QR code and place orders from their phone, it reduces the need for physical menus and paper receipts. Additionally, it provides restaurant owners with an easy-to-use interface for managing their inventory, tracking orders, and collecting payments.
 
-Scannorder is a simple web app that allows you to scan a QR code and then place an order at a restaurant. It's a simple way to order food at the restaurant. POS systems are expensive and not all restaurants have them. Scannorder is a simple way to allow restaurants to take orders without having to buy a POS system. 
+## How It Works
+Scannorder works as follows:
 
-It is way for restaurants to take orders, collect payments and manage rewards.
+## Customer Story:
+- The customer logs in with their phone number and receives a one-time password (OTP).
+- The customer scans the restaurant's QR code to view the menu and selects their items.
+- The customer places the order and submits payment using a credit/debit card or other digital payment methods.
+- The customer can also send rewards to other customers by phone number.
 
-Restaurant owners can create a menu and then share the QR code with their customers. Customers can scan the QR code and then place an order. The restaurant owner can then see the order and then prepare the order.
+## Restaurant Story:
+- The restaurant owner logs in with their email and password to register their restaurant profile.
+- The restaurant owner adds their menu, payment methods, and rewards percentage (percentage of order value that can be shared with a different user as rewards on the purchase of the same restaurant).
+- The restaurant owner views and completes orders, collects payments, and manages their inventory.
+- The restaurant owner can view analytics on their sales and customer feedback.
 
-The restaurant owner can also collect payments and manage rewards.
+## Technologies Used
+Scannorder is built using React, Firebase, and Stripe API. React is a popular JavaScript library for building user interfaces. Firebase is a backend service that provides authentication, database, storage, and cloud functions. Stripe API is used to process payments and manage rewards.
 
-The customer can also pay for the order using a credit card or a debit card.
-The customer can redeem rewards for the order.
-The customer can send rewards to other customers.
-
-
--- consolidate above into an engineering problem statement with no redundant information and a clear description of the problem you are solving: "Scannorder is a simple web app that allows you to scan a QR code and then place an order at a restaurant. It's a simple way to order food at the restaurant. Scannorder is a simple way to allow restaurants to take orders without having to buy a POS system. It is way for restaurants to take orders, collect payments and manage rewards."
-
-## How does it work?
-
-Customer Story:
-- Login with Phone Number(OTP)
-- View Menu
-- Select Items
-- Place Order
-- Submit Payment
-- Send Rewards to other customers by phone number
-
-Restaurant Story:
-- Login with Email and Password
-- Register Restaurant Profile
-- Add Menu
-- Add Payment Methods
-- Add Rewards Percentage: percentage of order value that can be shared to a different user as rewards on purchase of the same restaurant
-- View Orders
-- Complete Orders
-- Collect Payments
-- View Rewards
-- View Analytics
-
-
-
-
+## Contributing
+Contributions to Scannorder are welcome. To contribute, please fork the repository and submit a pull request.
