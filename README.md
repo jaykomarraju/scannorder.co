@@ -2,7 +2,7 @@
 Scannorder is a web application that allows customers to scan a QR code and place orders at restaurants. It's an affordable alternative to Point of Sale (POS) systems for restaurants looking to digitize their operations. Scannorder enables restaurants to manage their orders, collect payments, and handle rewards, all within a single platform.
 
 ## Problem Statement
-Scannorder is a web app that simplifies the restaurant ordering process for both customers and restaurant owners. By enabling customers to scan a QR code and place orders from their phone, it reduces the need for physical menus and paper receipts. Additionally, it provides restaurant owners with an easy-to-use interface for managing their inventory, tracking orders, and collecting payments.
+Scannorder is a web app that simplifies the restaurant ordering process for both customers and restaurant owners. By enabling customers to scan a QR code and place orders from their phone, it reduces the need for physical menus and paper receipts. Additionally, it provides restaurant owners with an easy-to-use interface for managing their inventory, tracking orders, collecting payments, and managing rewards.
 
 ## How It Works
 Scannorder works as follows:
